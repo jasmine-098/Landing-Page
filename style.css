@@ -1,0 +1,1133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.webpage{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+width: 100vw;
+height: 80px;
+background-color: rgb(29, 29, 29);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.navbar a{
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding-top: 7px;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 255, 243);
+    color: rgb(31, 30, 30);
+    font-weight: 800;
+}
+
+.home{
+    background-color: rgb(255, 255, 246);
+    height: 37em;
+    width: 100vw;
+    position: relative;
+    /* border-bottom: 1px solid rgb(182, 182, 182); */
+}
+
+.h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    /* background-color: aquamarine; */
+    color: rgb(55, 55, 55);
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 160px;
+    position: absolute;      
+}
+
+.h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(93, 93, 93);
+    width: 520px;
+    margin-top: 265px;
+    margin-left: 80px;
+    position: absolute;    
+}
+
+.image .I1{
+    position: absolute;
+    height: 16em;
+    width: 16em;
+    border-radius: 50%;
+    border: 5.5px solid rgb(255, 255, 246);
+    margin-left: 670px;
+    margin-top: 10px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.image .I2{
+    position: absolute;
+    height: 16em;
+    width: 16em;
+    border-radius: 50%;
+    border: 5.5px solid rgb(255, 255, 246);
+    margin-left: 670px;
+    margin-top: 310px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.image img{
+    height: 37em;
+    width: 35%;
+    margin-left: 822px;
+    margin-top: -23px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.about{
+    width: 100vw;
+    height: 54em;
+    background-color: rgb(255, 255, 246);
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+#h4{
+   background-color: rgb(55, 55, 55);
+   color: whitesmoke;
+   width: 250px;
+   height: 40px;
+   font-size: 1.3em;
+   letter-spacing: 2px;
+   text-align: center;
+   padding-top: 4px;
+   margin-left: 520px;
+   margin-top: 80px;
+}
+
+#h5{
+    width: 40em;
+    height: 6em;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+    /* background-color: yellowgreen; */
+}
+
+.box{
+    background-color: rgb(255, 255, 236);
+    width: 33em;
+    height: 5em;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 330px;
+    margin-top: 20px;
+    border-left: 4px solid rgb(93, 93, 93);
+}
+
+#h6{
+    width: 38em;
+    height: 6em;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+
+.I3{
+    width: 400px;
+    height: 300px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+}
+
+.I4{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.menu{
+    width: 100vw;
+    height: 67em;
+    background-color: rgb(255, 255, 246);
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.hexagon {
+    width: 210px;
+    height: 220px;
+    background-color: black;
+    clip-path: polygon(
+      50% 0%, 
+      100% 25%, 
+      100% 75%, 
+      50% 100%, 
+      0% 75%, 
+      0% 25%
+    );
+  }
+
+  .hexagon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .e1{
+   margin-top: 75px;
+   margin-left: 225px;  
+   overflow: hidden;
+}
+
+.menu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food{
+    width: 150px;
+    height: 40px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(93, 93, 93);
+    text-align: center;
+}
+
+.f1{
+    margin-left: 255px;
+    margin-top: 20px;
+}
+
+.e2{
+    margin-top: -280px;
+    margin-left: 545px;
+    overflow: hidden;
+}
+
+.f2{
+    margin-left: 578px;
+    margin-top: 20px;
+}
+
+.e3{
+    margin-top: -280px;
+    margin-left: 865px;
+    overflow: hidden;
+}
+
+.f3{
+    width: 200px;
+    margin-left: 870px;
+    margin-top: 20px;
+}
+
+.e4{
+    margin-top: 40px;
+   margin-left: 225px;  
+   overflow: hidden;
+}
+
+.f4{
+    width: 210px;
+    margin-left: 225px;
+    margin-top: 20px; 
+}
+
+.e5{
+    margin-top: -280px;
+    margin-left: 550px;
+    overflow: hidden;
+}
+
+.f5{
+    margin-left: 580px;
+    margin-top: 20px;  
+}
+
+.e6{
+    margin-top: -280px;
+    margin-left: 870px;
+    overflow: hidden;
+}
+
+.f6{
+    margin-left: 900px;
+    margin-top: 20px;
+}
+  
+.e7{
+    margin-top: 30px;
+    margin-left: 390px;  
+    overflow: hidden;
+}
+
+.f7{
+    margin-left: 415px;
+    margin-top: 20px; 
+}
+
+.e8{
+    margin-top: -280px;
+    margin-left: 720px;
+    overflow: hidden;
+}
+
+.f8{
+    margin-left: 750px;
+    margin-top: 20px; 
+}
+.contact{
+        width: 100vw;
+        height: 44em;
+        background-color: rgb(255, 255, 246);
+        border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+#h7{
+    width: 40em;
+    height: 7em;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+    /* background-color: yellowgreen;  */
+}
+
+#h8{
+    width: 40em;
+    height: 2em;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 20px;
+    /* background-color: yellowgreen;  */
+}
+
+#h8 span{
+    font-weight: 500;
+}
+
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 550px;
+    height: 55px;
+    padding-top: 4px;
+    padding-left: 15px;
+    font-size: 1em;
+    margin-left: 370px;
+    margin-top: 15px;
+    border: 1px solid #a5a5a5;
+    background-color: rgb(255, 255, 246);
+}
+
+.name:hover{
+    cursor: auto;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    font-size: 1.1em;
+    width: 160px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 370px;
+    border: none;
+}
+
+button:hover{
+    background-color: #b2b2b2;
+    color: rgb(41, 41, 41);
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 977px)
+{
+    .h1{
+        margin-left: 100px;
+    }
+    .h2{
+        margin-left: 20px;
+        /* background-color: blue; */
+        width: 480px;
+    }
+    .image .I1{
+        margin-left: 550px; 
+    }
+    .image .I2{
+       margin-left: 550px;
+    }
+    .image img{
+        margin-left: 720px;
+        width: 35%;
+    }
+    .about{
+        height: 58em;
+    }
+    #h4{
+        margin-left: 400px;
+    }
+    #h5{
+        width: 37em;
+        margin-left: 150px;
+    }
+    .box{
+        margin-left: 200px;
+    }
+    #h6{
+        margin-left: 200px;
+        width: 34em;
+    }
+    .I3{
+        margin-left: 100px;
+    }
+    .e1{
+        margin-left: 100px;
+    }
+    .f1{
+        margin-left: 130px;
+    }
+    .e2{
+        margin-left: 430px;
+    }
+    .f2{
+        margin-left: 460px;
+    }
+    .e3{
+        margin-left: 750px;
+    }
+    .f3{
+        margin-left: 760px;
+    }
+    .e4{
+        margin-left: 100px;
+    }
+    .f4{
+        margin-left: 100px;
+    }
+    .e5{
+        margin-left: 435px;
+    }
+    .f5{
+        margin-left: 465px;
+    }
+    .e6{
+        margin-left: 755px;
+    }
+    .f6{
+        margin-left: 785px;
+    }
+    .e7{
+        margin-left: 270px;
+    }
+    .f7{
+        margin-left: 300px;
+    }
+    .e8{
+        margin-left: 600px;
+    }
+    .f8{
+        margin-left: 635px;
+    }
+    .contact{
+        height: 46em;
+    }
+    #h7{
+        width: 38em;
+        margin-left: 150px;
+        height: 8em;
+    }
+    #h8{
+        width: 30em;
+        margin-left: 230px;
+    }
+    .name{
+        margin-left: 250px;
+    }
+    button{
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 976px) and (min-width: 740px) 
+{
+    .home{
+        height: 39em;
+    }
+    .h1{
+        margin-left: 50px;
+        width: 320px;
+    }
+    .h2{
+        margin-left: 30px;
+        width: 360px;
+        height: 270px;
+    }
+    .image .I1{
+       margin-left: 390px; 
+    }
+    .image .I2{
+       margin-left: 390px;
+    }
+    .image img{
+        margin-left: 500px;
+        width: 45%;
+    }
+    .about{
+        height: 74em;
+    }
+    #h4{
+        margin-left: 290px;
+    }
+    #h5{
+        width: 27em;
+        height: 7em;
+        margin-left: 140px;
+    }
+    .box{
+        margin-left: 150px;
+        width: 26em;
+        height: 6em;
+    }
+    #h6{
+        margin-left: 140px;
+        width: 27em;
+        height: 4em;
+        }
+    .I3{
+        margin-left: 215px;
+        margin-bottom: 0px;
+        margin-top: 28px;
+    }
+    .I4{
+        margin-left: 215px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .menu{
+        height: 162em;
+    }
+    .food{
+        font-size: 1.4em;
+    }
+    .e1{
+        margin-left: 310px;
+        margin-top: 60px;
+    }
+    .f1{
+        margin-left: 340px;
+    }
+    .e2{
+        margin-left: 310px;
+        margin-top: 40px;
+    }
+    .f2{
+        margin-left: 341px;
+    }
+    .e3{
+        margin-left: 310px;
+        margin-top: 40px;    }
+    .f3{
+        margin-left: 315px;
+    }
+    .e4{
+        margin-left: 310px;
+        margin-top: 40px;    
+    }
+    .f4{
+        margin-left: 285px;
+        width: 255px;
+    }
+    .e5{
+        margin-left: 310px;
+        margin-top: 50px;    }
+    .f5{
+        margin-left: 345px;
+    }
+    .e6{
+        margin-left: 310px;
+        margin-top: 40px;    }
+    .f6{
+        margin-left: 340px;
+    }
+    .e7{
+        margin-left: 310px;
+        margin-top: 40px;    }
+    .f7{
+        margin-left: 340px;
+    }
+    .e8{
+        margin-left: 310px;
+        margin-top: 40px;    }
+    .f8{
+        margin-left: 340px;
+    }
+    .contact{
+        height: 50em;
+    }
+    #h7{
+        width: 31em;
+        margin-left: 100px;
+        height: 10em;
+    }
+    #h8{
+        width: 29em;
+        margin-left: 125px;
+    }
+    .name{
+        margin-left: 140px;
+    }
+    button{
+        margin-left: 140px;
+    }
+}
+@media only screen and (max-width: 740px) and (min-width: 650px)
+{
+    .home{
+        height: 40em;
+    } 
+    .h1{
+        margin-left: 50px;
+        width: 230px;
+        font-size: 65px;
+        margin-top: 110px;
+    }
+    .h2{
+        margin-left: 35px;
+        width: 260px;
+        height: 325px;
+        font-size: 21px;
+        margin-top: 200px;
+    }
+    .image .I1{
+       margin-left: 300px; 
+    }
+    .image .I2{
+       margin-left: 300px;
+    }
+    .image img{
+        margin-left: 450px;
+        width: 41%;
+    }
+    .about{
+        height: 77em;
+    }
+    #h4{
+        margin-left: 200px;
+    }
+    #h5{
+        width: 24em;
+        height: 8em;
+        margin-left: 80px;
+    }
+    .box{
+        margin-left: 100px;
+        width: 23em;
+        height: 6.2em;
+    }
+    #h6{
+        margin-left: 95px;
+        width: 23em;
+        height: 6em;
+        }
+    .I3{
+        margin-left: 120px;
+        margin-bottom: 0px;
+        margin-top: 28px;
+    }
+    .I4{
+        margin-left: 120px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .menu{
+        height: 162em;
+    }
+    .food{
+        font-size: 1.4em;
+    }
+    .e1{
+        margin-left: 220px;
+        margin-top: 60px;
+    }
+    .f1{
+        margin-left: 250px;
+    }
+    .e2{
+        margin-left: 220px;
+        margin-top: 40px;
+    }
+    .f2{
+        margin-left: 250px;
+    }
+    .e3{
+        margin-left: 220px;
+        margin-top: 40px;   
+     }
+    .f3{
+        margin-left: 225px;
+    }
+    .e4{
+        margin-left: 220px;
+        margin-top: 40px;    
+    }
+    .f4{
+        margin-left: 200px;
+        width: 255px;
+    }
+    .e5{
+        margin-left: 220px;
+        margin-top: 50px;    }
+    .f5{
+        margin-left: 250px;
+    }
+    .e6{
+        margin-left: 220px;
+        margin-top: 40px;    }
+    .f6{
+        margin-left: 250px;
+    }
+    .e7{
+        margin-left: 220px;
+        margin-top: 40px;    }
+    .f7{
+        margin-left: 250px;
+    }
+    .e8{
+        margin-left: 220px;
+        margin-top: 40px;    }
+    .f8{
+        margin-left: 250px;
+    }
+    .contact{
+        height: 50em;
+    }
+    #h7{
+        width: 25em;
+        margin-left: 70px;
+        height: 12em;
+    }
+    #h8{
+        width: 23em;
+        height: 3em;
+        margin-left: 80px;
+    }
+    .name{
+        margin-left: 90px;
+        width: 420px;
+    }
+    button{
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 598px){
+    .image .I1{
+      display: none;
+    }
+    .image .I2{
+     display: none;
+    }
+    .image img{
+       display: none;
+    }
+    .about{
+        height: 80em;
+    }
+    #h4{
+        margin-left: 200px;
+    }
+    #h5{
+        width: 24em;
+        height: 8em;
+        margin-left: 80px;
+    }
+    .box{
+        margin-left: 100px;
+        width: 23em;
+        height: 6.2em;
+    }
+    #h6{
+        margin-left: 95px;
+        width: 23em;
+        height: 6em;
+        }
+    .I3{
+        margin-left: 120px;
+        margin-bottom: 0px;
+        margin-top: 28px;
+    }
+    .I4{
+        margin-left: 120px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .menu{
+        height: 162em;
+    }
+    .food{
+        font-size: 1.4em;
+    }
+    .e1{
+        margin-left: 220px;
+        margin-top: 60px;
+    }
+    .f1{
+        margin-left: 250px;
+    }
+    .e2{
+        margin-left: 220px;
+        margin-top: 40px;
+    }
+    .f2{
+        margin-left: 250px;
+    }
+    .e3{
+        margin-left: 220px;
+        margin-top: 40px;   
+     }
+    .f3{
+        margin-left: 225px;
+    }
+    .e4{
+        margin-left: 220px;
+        margin-top: 40px;    
+    }
+    .f4{
+        margin-left: 200px;
+        width: 255px;
+    }
+    .e5{
+        margin-left: 220px;
+        margin-top: 50px;    }
+    .f5{
+        margin-left: 250px;
+    }
+    .e6{
+        margin-left: 220px;
+        margin-top: 40px;    }
+    .f6{
+        margin-left: 250px;
+    }
+    .e7{
+        margin-left: 220px;
+        margin-top: 40px;    }
+    .f7{
+        margin-left: 250px;
+    }
+    .e8{
+        margin-left: 220px;
+        margin-top: 40px;    }
+    .f8{
+        margin-left: 250px;
+    }
+    .contact{
+        height: 50em;
+    }
+    #h7{
+        width: 25em;
+        margin-left: 70px;
+        height: 12em;
+    }
+    #h8{
+        width: 23em;
+        height: 3em;
+        margin-left: 80px;
+    }
+    .name{
+        margin-left: 90px;
+        width: 420px;
+    }
+    button{
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 597px) and (min-width: 570px){
+    .h1{
+        margin-left: 120px;
+    }
+    .h2{
+        margin-left: 30px;
+    }
+    .image .I1{
+        display: none;
+      }
+      .image .I2{
+       display: none;
+      }
+      .image img{
+         display: none;
+      }
+      .about{
+          height: 80em;
+      }
+      #h4{
+          margin-left: 200px;
+      }
+      #h5{
+          width: 24em;
+          height: 8em;
+          margin-left: 80px;
+      }
+      .box{
+          margin-left: 100px;
+          width: 23em;
+          height: 6.2em;
+      }
+      #h6{
+          margin-left: 95px;
+          width: 23em;
+          height: 6em;
+          }
+      .I3{
+          margin-left: 120px;
+          margin-bottom: 0px;
+          margin-top: 28px;
+      }
+      .I4{
+          margin-left: 120px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+      }
+      .menu{
+          height: 162em;
+      }
+      .food{
+          font-size: 1.4em;
+      }
+      .e1{
+          margin-left: 220px;
+          margin-top: 60px;
+      }
+      .f1{
+          margin-left: 250px;
+      }
+      .e2{
+          margin-left: 220px;
+          margin-top: 40px;
+      }
+      .f2{
+          margin-left: 250px;
+      }
+      .e3{
+          margin-left: 220px;
+          margin-top: 40px;   
+       }
+      .f3{
+          margin-left: 225px;
+      }
+      .e4{
+          margin-left: 220px;
+          margin-top: 40px;    
+      }
+      .f4{
+          margin-left: 200px;
+          width: 255px;
+      }
+      .e5{
+          margin-left: 220px;
+          margin-top: 50px;    }
+      .f5{
+          margin-left: 250px;
+      }
+      .e6{
+          margin-left: 220px;
+          margin-top: 40px;    }
+      .f6{
+          margin-left: 250px;
+      }
+      .e7{
+          margin-left: 220px;
+          margin-top: 40px;    }
+      .f7{
+          margin-left: 250px;
+      }
+      .e8{
+          margin-left: 220px;
+          margin-top: 40px;    }
+      .f8{
+          margin-left: 250px;
+      }
+      .contact{
+          height: 50em;
+      }
+      #h7{
+          width: 25em;
+          margin-left: 70px;
+          height: 12em;
+      }
+      #h8{
+          width: 23em;
+          height: 3em;
+          margin-left: 80px;
+      }
+      .name{
+          margin-left: 90px;
+          width: 420px;
+      }
+      button{
+          margin-left: 90px;
+      }
+}
+
+@media only screen and (max-width: 570px){
+    .home{
+        height: 33em;
+        border-bottom: 1px solid rgb(179, 179, 179);
+    }
+    .h1{
+        margin-left: 100px;
+        width: 240px;
+        font-size: 67px;
+    }
+    .h2{
+        margin-left: 20px;
+        width: 385px;
+        font-size: 20px;
+    }
+    .image .I1{
+        display: none;
+      }
+      .image .I2{
+       display: none;
+      }
+      .image img{
+         display: none;
+      }
+      .about{
+          height: 75em;
+      }
+      #h4{
+          margin-left: 85px;
+      }
+      #h5{
+          width: 18em;
+          height: 11em;
+          margin-left: 30px;
+      }
+      .box{
+          margin-left: 45px;
+          width: 17em;
+          height: 8em;
+      }
+      #h6{
+          margin-left: 45px;
+          width: 17em;
+          height: 8em;
+          }
+      .I3{
+          margin-left: 70px;
+          margin-bottom: 0px;
+          margin-top: 28px;
+          width: 300px;
+          height: 200px;
+      }
+      .I4{
+          margin-left: 70px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+          width: 300px;
+          height: 200px;
+      }
+      .menu{
+          height: 162em;
+      }
+      .food{
+          font-size: 1.5em;
+      }
+      .e1{
+          margin-left: 110px;
+          margin-top: 60px;
+      }
+      .f1{
+          margin-left: 145px;
+      }
+      .e2{
+          margin-left: 110px;
+          margin-top: 40px;
+      }
+      .f2{
+          margin-left: 140px;
+      }
+      .e3{
+          margin-left: 110px;
+          margin-top: 40px;   
+       }
+      .f3{
+          margin-left: 120px;
+      }
+      .e4{
+          margin-left: 110px;
+          margin-top: 40px;    
+      }
+      .f4{
+          margin-left: 85px;
+          width: 260px;
+      }
+      .e5{
+          margin-left: 110px;
+          margin-top: 50px;    }
+      .f5{
+          margin-left: 145px;
+      }
+      .e6{
+          margin-left: 110px;
+          margin-top: 40px;    }
+      .f6{
+          margin-left: 145px;
+      }
+      .e7{
+          margin-left: 110px;
+          margin-top: 40px;    }
+      .f7{
+          margin-left: 140px;
+      }
+      .e8{
+          margin-left: 110px;
+          margin-top: 40px;    }
+      .f8{
+          margin-left: 145px;
+      }
+      .contact{
+          height: 60em;
+      }
+      #h7{
+          width: 17em;
+          margin-left: 40px;
+          height: 16em;
+      }
+      #h8{
+          width: 16em;
+          height: 3em;
+          margin-left: 50px;
+      }
+      .name{
+          margin-left: 50px;
+          width: 320px;
+      }
+      button{
+          margin-left: 50px;
+      }
+}
