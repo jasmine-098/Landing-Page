@@ -992,7 +992,7 @@ button:hover{
       }
 }
 
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 570px) and (min-width: 415px){
     .home{
         height: 33em;
         border-bottom: 1px solid rgb(179, 179, 179);
@@ -1129,5 +1129,157 @@ button:hover{
       }
       button{
           margin-left: 50px;
+      }
+}
+
+@media only screen and (max-width: 414px){
+    .home{
+        height: 33em;
+        border-bottom: 1px solid rgb(179, 179, 179);
+    }
+    .h1{
+        margin-left: 65px;
+        width: 240px;
+        font-size: 63px;
+    }
+    .h2{
+        margin-left: 30px;
+        width: 300px;
+        font-size: 17.5px;
+        margin-top: 230px;
+    }
+    .image .I1{
+        display: none;
+      }
+      .image .I2{
+       display: none;
+      }
+      .image img{
+         display: none;
+      }
+      .about{
+          height: 65em;
+      }
+      #h4{
+          margin-left: 75px;
+          font-size: 1.1em;
+          width: 200px;
+          height: 35px;
+          margin-top: 95px;
+      }
+      #h5{
+          width: 18em;
+          height: 11em;
+          margin-left: 20px;
+          font-size: 17px;
+          margin-top: 30px;
+      }
+      .box{
+          margin-left: 48px;
+          width: 14em;
+          height: 10em;
+          font-size: 17px;
+      }
+      #h6{
+          margin-left: 38px;
+          width: 16em;
+          height: 8em;
+          font-size: 17px;
+          }
+      .I3{
+          margin-left: 60px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+          width: 230px;
+          height: 150px;
+      }
+      .I4{
+          margin-left: 60px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+          width: 230px;
+          height: 150px;
+      }
+      .menu{
+          height: 162em;
+      }
+      .food{
+          font-size: 1.3em;
+      }
+      .e1{
+          margin-left: 70px;
+          margin-top: 60px;
+      }
+      .f1{
+          margin-left: 105px;
+      }
+      .e2{
+          margin-left: 70px;
+          margin-top: 40px;
+      }
+      .f2{
+          margin-left: 102px;
+      }
+      .e3{
+          margin-left: 70px;
+          margin-top: 40px;   
+       }
+      .f3{
+          margin-left: 75px;
+      }
+      .e4{
+          margin-left: 70px;
+          margin-top: 40px;    
+      }
+      .f4{
+          margin-left: 45px;
+          width: 260px;
+      }
+      .e5{
+          margin-left: 70px;
+          margin-top: 50px;    }
+      .f5{
+          margin-left: 100px;
+      }
+      .e6{
+          margin-left: 70px;
+          margin-top: 40px;    }
+      .f6{
+          margin-left: 100px;
+      }
+      .e7{
+          margin-left: 70px;
+          margin-top: 40px;    }
+      .f7{
+          margin-left: 102px;
+      }
+      .e8{
+          margin-left: 70px;
+          margin-top: 40px;    }
+      .f8{
+          margin-left: 102px;
+      }
+      .contact{
+          height: 60em;
+      }
+      #h7{
+          width: 17em;
+          margin-left: 30px;
+          height: 16em;
+          font-size: 17.5px;
+          margin-top: 30px;
+      }
+      #h8{
+          width: 16em;
+          height: 3em;
+          margin-left: 40px;
+          font-size: 18px;
+      }
+      .name{
+          margin-left: 40px;
+          width: 280px;
+      }
+      button{
+          margin-left: 40px;
       }
 }
